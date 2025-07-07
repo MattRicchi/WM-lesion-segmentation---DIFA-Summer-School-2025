@@ -26,8 +26,6 @@ def load_nifti_image(file_path):
         raise TypeError("File path must be a string")
     if not file_path:
         raise ValueError("File path cannot be empty")
-    if not nib.filebasedimages.is_supported(file_path):
-        raise ValueError("File format not supported or file does not exist")
     
     # Load the image data and affine transformation matrix
     img = nib.load(file_path)
