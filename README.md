@@ -4,6 +4,10 @@
 
 This repository provides Python scripts for segmenting Multiple Sclerosis (MS) white matter (WM) lesions using a thresholding method based on the intensity histogram of FLAIR MRI images within gray matter (GM) regions.
 
+Please, open the Colab Notebook at the following link and make your own copy
+
+https://colab.research.google.com/drive/1WuS-tad9hAAYFOGYuOx_PWlNKPyesefH?usp=sharing
+
 ## Instructions for Summer School Students
 
 ### 1. Prerequisites
